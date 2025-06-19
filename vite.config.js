@@ -14,5 +14,5 @@ export default defineConfig({
     port: 3000,
     open: true
   },
-  base: process.env.NODE_ENV === 'production' ? '/vue-pinia-tutorial/' : '/'
+  base: process.env.NODE_ENV === 'production' ? '/' : '/'
 })

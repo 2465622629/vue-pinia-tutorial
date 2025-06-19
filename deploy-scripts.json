@@ -1,0 +1,5 @@
+{
+  "deploy": "npm run build && gh-pages -d dist",
+  "deploy:github": "npm run build && gh-pages -d dist -r https://github.com/2465622629/vue-pinia-tutorial.git",
+  "deploy:custom": "npm run build && echo 'pnia.xiaomcode.xyz' > dist/CNAME && gh-pages -d dist"
+}
