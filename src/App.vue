@@ -28,10 +28,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
+<script setup>
+// 这里可以添加任何需要的逻辑
 </script>
 
 <style>
